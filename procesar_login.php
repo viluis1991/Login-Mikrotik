@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['usuario'] = $usuario; // Guarda el nombre de usuario en la sesión
         
         // Redirige al usuario a una página de bienvenida o dashboard
-        header("Location: bienvenida.php");
+        header("Location: bienvenido.php");
         exit; // Es importante salir después de una redirección
     } else {
         // Login fallido
